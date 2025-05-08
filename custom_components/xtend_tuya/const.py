@@ -623,6 +623,7 @@ class XTDPCode(StrEnum):
     VA_BATTERY = "va_battery"
     VA_HUMIDITY = "va_humidity"
     VA_TEMPERATURE = "va_temperature"
+    VBAT_STATE = "vbat_state" #Battery state for WiFi valve
     VOC_STATE = "voc_state"
     VOC_VALUE = "voc_value"
     VOICE_SWITCH = "voice_switch"
