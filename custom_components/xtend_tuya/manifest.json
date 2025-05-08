@@ -1,5 +1,5 @@
 {
-  "domain": "xtend_m_tuya",
+  "domain": "xtend_tuya",
   "name": "Xtend Tuya by Morab",
   "after_dependencies": ["tuya"],
   "codeowners": ["@morab"],
