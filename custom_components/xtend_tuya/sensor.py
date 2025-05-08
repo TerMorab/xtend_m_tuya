@@ -108,6 +108,13 @@ BATTERY_SENSORS: tuple[XTSensorEntityDescription, ...] = (
         state_class=SensorStateClass.MEASUREMENT,
     ),
     XTSensorEntityDescription(
+        key=XTDPCode.VBAT_STATE,
+        translation_key="battery",
+        device_class=SensorDeviceClass.BATTERY,
+        entity_category=EntityCategory.DIAGNOSTIC,
+        state_class=SensorStateClass.MEASUREMENT,
+    ),
+    XTSensorEntityDescription(
         key=XTDPCode.RESIDUAL_ELECTRICITY,
         translation_key="battery",
         native_unit_of_measurement=PERCENTAGE,
